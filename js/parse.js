@@ -115,13 +115,13 @@ function updateTrackInfoFromIceCast(icecastURL) {
 	if (this.status >= 200 && this.status < 400) {
 		// Success!
 		var data = JSON.parse(this.response);
-		try {
-			track.name = Object.is(data.icestats.source.title, undefined) ? "fart" : data.icestats.source.title;
-			track.artist = Object.is(data.icestats.source.artist, undefined) ? "fart" : data.icestats.source.artist;
-		}
-		catch {
-			console.log("No Icecast data to load, will retry");
-		}
+			try {
+				track.name = Object.is(data.icestats.source.title, undefined) ? "fart" : data.icestats.source.title;
+				track.artist = Object.is(data.icestats.source.artist, undefined) ? "fart" : data.icestats.source.artist;
+			}
+			catch(err) {
+				console.log("No Icecast data to load, will retry");
+			}
 	} else {
 		// We reached our target server, but it returned an error
 
