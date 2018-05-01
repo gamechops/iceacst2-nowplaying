@@ -65,10 +65,6 @@ function writeTrack() {
 			if (!$(this).hasClass("static")) $(this).removeClass("slide-left");
 			if (!$(this).hasClass("static")) $(this).css("visibility", "visible");
 			$(this).addClass("slide-right");
-			/*if (!$(this).hasClass("static")) $(this).delay(100 * i).queue(function() {
-				$(this).css("visibility", "visible");
-				$(this).addClass("slide-right").dequeue();
-			})*/
 		})
 	})
 
@@ -124,6 +120,7 @@ function updateTrackInfoFromIceCast(icecastURL) {
 			}
 	} else {
 		// We reached our target server, but it returned an error
+		console.log("Bad connection. Is icecast2 configured appropriately in config.js? Is icecast2 working properly?")
 
   }
 };
@@ -136,10 +133,6 @@ request.send();
 }
 
 setInterval(function() {
-	// updateTrackInfo("nowPlaying.txt", "foobar");
-	// updateTrackInfo("cutmanTitle.txt", "name");
-	// updateTrackInfo("cutmanArtist.txt", "artist");
-	//updateTrackInfo("cutmanAlbum.txt", "album");
 	updateTrackInfoFromIceCast(icecastURL)
 
 	if (isUpdated()) writeTrack();
