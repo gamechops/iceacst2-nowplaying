@@ -21,5 +21,6 @@ This replaces https://github.com/gamechops/traktor-nowplaying by removing the de
 * Play music!
 
 ## Notes
-Depending on your DJ software, it may take several seconds before it updates the icecast2 server with the current song information.  The browser source will check for new song information 5 times a second. 
+* Depending on your DJ software, it may take several seconds before it updates the icecast2 server with the current song information.  The browser source will check for new song information 5 times a second. 
+    * This setting may be adjustable in your DJ software. Consult your DJ software documentation for more information.
 
