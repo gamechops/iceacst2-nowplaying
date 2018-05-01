@@ -1,7 +1,7 @@
 # iceacst2-nowplaying
 HTML Browser Source that pulls current track information from icecast2. Designed to work with DJ software to provide current track information inside of IP Broadcasting (Streaming) Software such as OBS, Xsplit, etc.
 
-This replaces https://github.com/gamechops/traktor-nowplaying by removing the dependency on Python2, and making it a CSS customizable Browser Source instead of text sources to be included. 
+This replaces https://github.com/gamechops/traktor-nowplaying by removing the dependency on Python2, and making it a CSS customizable Browser Source instead of text sources to be consumed by IP Broadcasting (Streaming) Software. 
 
 ## Requirements
 * icecast2 
