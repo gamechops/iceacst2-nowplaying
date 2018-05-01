@@ -5,14 +5,14 @@ This replaces https://github.com/gamechops/traktor-nowplaying by removing the de
 
 ## Requirements
 * icecast2 
-** You'll need to configure an [icecast2](http://icecast.org/) instance. This can be installed on the same computer that you will be streaming from, or on a server elsewhere.  For basic configurations, a default icecast2 installation is more than sufficient. 
+    * You'll need to configure an [icecast2](http://icecast.org/) instance. This can be installed on the same computer that you will be streaming from, or on a server elsewhere.  For basic configurations, a default icecast2 installation is more than sufficient. 
 * Something to broadcast to icecast2
-** Ideally, you're performing a DJ set, so you'll have some DJ performance software like Traktor, Serato, Mixxx, VirtualDJ, or something similar.  You'll need to configure it to broadcast to your icecast2 server.  Support for configuring your DJ software to talk to your icecast2 instance will be in your DJ software's documentation, or contact vendor support.  The instructions assume that you are able to brodcast successfully to your icecast2 server.  
+    * Ideally, you're performing a DJ set, so you'll have some DJ performance software like Traktor, Serato, Mixxx, VirtualDJ, or something similar.  You'll need to configure it to broadcast to your icecast2 server.  Support for configuring your DJ software to talk to your icecast2 instance will be in your DJ software's documentation, or contact vendor support.  The instructions assume that you are able to brodcast successfully to your icecast2 server.  
 
 ## First Time Setup
 * config.js
-** If you are using a default icecast2 installation on the same computer as your IP Broadcasting (Streaming) Software, no configuration of this file is necessary
-** If you are running an advanced configuration, you can change the address and/or port here.  
+    * If you are using a default icecast2 installation on the same computer as your IP Broadcasting (Streaming) Software, no configuration of this file is necessary
+    * If you are running an advanced configuration, you can change the address and/or port here.  
 
 ## Instructions
 * Load the index.html file into a browser source within a scene in your IP Broadcasting (Streaming) Software. 
