@@ -5,9 +5,9 @@ This replaces https://github.com/gamechops/traktor-nowplaying by removing the de
 
 ## Requirements
 * icecast2 
-    * You'll need to configure an [icecast2](http://icecast.org/) instance. This can be installed on the same computer that you will be streaming from, or on a server elsewhere.  For basic configurations, a default icecast2 installation is more than sufficient. 
+    * You'll need to configure an [icecast2](http://icecast.org/) instance. This can be installed on the same computer that you will be streaming from, or on a server elsewhere.  For basic configurations, a default icecast2 installation is more than sufficient. This readme does not cover how to install and configure icecast2, and assumes you have a basic understanding of it. 
 * Something to broadcast to icecast2
-    * Ideally, you're performing a DJ set, so you'll have some DJ performance software like Traktor, Serato, Mixxx, VirtualDJ, or something similar.  You'll need to configure it to broadcast to your icecast2 server.  Support for configuring your DJ software to talk to your icecast2 instance will be in your DJ software's documentation, or contact vendor support.  The instructions assume that you are able to broadcast successfully to your icecast2 server.  
+    * Ideally, you're performing a DJ set, so you'll have some DJ performance software like Traktor, Serato, Mixxx, VirtualDJ, or something similar.  You'll need to configure it to broadcast to your icecast2 server.  Support for configuring your DJ software to talk to your icecast2 instance will be in your DJ software's documentation, or contact vendor support.  This readme does not cover how to configure your DJ software and assumes that you are able to broadcast successfully to your icecast2 server.  
 
 ## First Time Setup
 * config.js
